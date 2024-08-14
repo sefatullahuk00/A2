@@ -91,7 +91,63 @@
         <img src="./assets/run1.png" alt="">
     </div>
 </div>
+<!-- BMI Calculator -->
+<div class="section-head">
+    <h2 class="t-left title">BMI Calculator</h2>
+    <p class="t-left description">It is a method of measuring through overweight, normal weight and underweight.</p>
+</div>
+ <div id="bmi">
+    <div class="container">
+        <div class="bmi-chart">
+            <h2 class="t-left title" style="font-size: 28px;">BMI Calculator chart</h2>
 
+            <table>
+                <tr>
+                    <th>BMI</th>
+                    <th>Weight Status</th>
+                </tr>
+                <tr>
+                    <td>Below 18.5</td>
+                    <td>underweight</td>
+                </tr>
+                <tr>
+                    <td>18.5 - 24.9</td>
+                    <td>Healthy</td>
+                </tr>
+                <tr>
+                    <td>25.0 - 29.9</td>
+                    <td>overweight</td>
+                </tr>
+                <tr>
+                    <td>30.0 and above</td>
+                    <td>Obese</td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="bmi-calculator">
+            <h3 class="title t-left" style="font-size: 28px;">Calculate Your BMI</h3>
+            <p class="description t-left">BMI, a calculation that uses a person's height and weight to designate a classification.</p>
+
+            <form action="">
+                <div>
+                    <input type="text" placeholder="Height/cm">
+                    <input type="text" placeholder="Weight/kg">
+                    <input type="number" placeholder="Age">
+                    <select name="sex" id="sex">
+                        <option selected value="">Sex</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                    </select>
+                    <select name="" id="activity-factor">
+                        <option selected value="">Select an Activity Factor</option>
+                    </select>
+                </div>
+               <button class="btn">Calculate</button>
+            </form>
+        </div>
+    </div>
+ </div>
 
 
 
