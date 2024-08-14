@@ -329,10 +329,43 @@ nav {
     flex-grow: 1
 }
 
-
-
-
-
+/* Meet team  */
+#meet-team {
+    margin-top: 3rem;
+}
+.team-members {
+    width: 1060px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 15px;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+}
+.team-members > * {
+    flex: 1 1 30%;
+    position: relative;
+}
+.team-members img {
+    width: 326px;
+    border-radius: 18px;
+    height: 250px;
+}
+.team-members .trainer-id {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.team-members .trainer-id h4 {
+    color: white;
+    font-size: 20px;
+}
+.team-members .trainer-id p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
 
 
 /* Media Query     */
