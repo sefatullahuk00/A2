@@ -437,7 +437,7 @@ footer .container, footer .footer-cta {
 }
 footer .container > *, footer .footer-cta > *{
     flex-basis: 100%;
-    padding: 40px 30px;
+    padding: 40px 0;
 }
 footer .footer-cta > * {
     padding: 0;
