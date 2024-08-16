@@ -537,11 +537,9 @@ footer div:last-child{
 .nav-container .hamburger {
     display: block;
 }
-.nav-container .hamburger p {
-    height: 4px;
-    width: 30px;
-    background-color: white;
-    margin: 5px 0;
+.nav-container .hamburger i {
+   color: white;
+   font-size: 28px;
 }
 #hero-banner {
     flex-direction: column;
@@ -679,7 +677,4 @@ footer .container > * {
     padding: 0;
 }
 
-
-@media screen and (max-width: 1100px) {
-    
 }
