@@ -84,7 +84,7 @@ td {
     --f-inter: "Inter", sans-serif;
     --f-cursive: "Grey Qo", cursive;
     /* color  */
-    --dark : rgb(185, 185, 185);
+    --dark : rgb(0, 0, 0);
 }
 
 /* Navbar  */
@@ -375,7 +375,58 @@ td {
     color: rgba(255, 255, 255, 0.5);
     font-size: 15px;
 }
-
+/* testimonals  */
+.reviews-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.review {
+    background-color: rgb(190, 190, 190);
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1 1 40%;
+}
+.topbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.topbox .client-name {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+.topbox .client-img {
+    height: 50px;
+    width: 50px;
+}
+.topbox .client-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.topbox strong {
+    font-size: 17px;
+    font-family: var(--f-inter);
+    color: var(--dark)
+}
+.topbox p {
+    font-size: 13px;
+    font-family: var(--f-inter);
+    color: var(--dark)
+}
+.review .ratings i {
+    color: orange;
+}
+.review .client-comment {
+    font-size: 19px;
+    color: var(--dark)
+}
 /* Footer  */
 footer {
     background-color: rgba(255, 255, 255, 0.1);
@@ -506,7 +557,7 @@ footer div:last-child{
 #hero-banner .hero-img .hero-rectangle1{
     width: 190px;
     height: 78px;
-    right: -20px;
+    right: -38px;
     top: 200px;
 }
 #hero-banner .hero-img .hero-rectangle1 h3{
@@ -525,7 +576,7 @@ footer div:last-child{
 #hero-banner .hero-img .hero-rectangle2{
     width: 160px;
     height: 76px;
-    left: -22px;
+    left: -42px;
     top: 394px;
     border-radius: 10px;
     padding: 17px;
@@ -593,6 +644,25 @@ footer div:last-child{
 .team-members {
     flex-direction: column;
 }
+/* testimonals  */
+.reviews-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: column;
+    padding: 16px;
+}
+
+
+.topbox strong {
+    font-size: 17px;
+}
+.review .client-comment {
+    font-size: 17px;
+}
+
 
 footer .container {
     flex-direction: column;
@@ -602,10 +672,14 @@ footer .footer-cta {
     gap: 20px;
 }
 
-footer .container > *, footer .footer-cta > * {
+footer .container > * {
     padding: 20px 16px;
+}
+ footer .footer-cta > *{
+    padding: 0;
 }
 
 
-
+@media screen and (max-width: 1100px) {
+    
 }
